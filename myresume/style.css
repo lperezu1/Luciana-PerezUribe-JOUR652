@@ -19,4 +19,5 @@ strong{text-transform:uppercase;
 h2{text-transform:uppercase;
   font-size: 1.5em;
   background-color: #33485e;
-  color:#FFFFFF}
+  color:#FFFFFF;
+  font-weight:400;}
