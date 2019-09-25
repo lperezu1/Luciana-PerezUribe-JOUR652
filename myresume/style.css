@@ -6,7 +6,10 @@ color:#444;
 font-weight:400;
 font-size: 1em;}
 
-/*banner name at top */
+/*banner name at top, then photo of me, on the sides interests and skills, then finally underneath photo links to social media */
+
+
+/*would like to try to make a 3 block link to different things (such as a link to photos ive taken, another to a document with links to articles ive written, then last just McClathcy project*/)
 
 h1{font-size: 1.5em;
   color:#33485e;
@@ -16,7 +19,7 @@ h1{font-size: 1.5em;
 strong {text-transform:uppercase;
   font-size: 3em;
   color:#33485e;
-  text-align:right;}
+  text-align:center;;}
 
 
 
