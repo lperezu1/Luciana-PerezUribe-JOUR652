@@ -13,8 +13,9 @@ font-size: 1em;}
 
 .container{
 width: 100%;
-max-width:1000px;
+max-width:1200px;
 margin:0 auto;
+padding: 50px;
 }
 
 
@@ -29,8 +30,11 @@ margin:0 auto;
   margin: 0 auto;}
 
 
-h1{font-size: 1.5em;
+#title{font-size: 1.5em;
     color:#33485e;
+    font-weight: 600px;
+    text-align: center;
+    margin-top: 20px;
     font-style:bold;
     text-transform:uppercase;}
 
@@ -42,8 +46,6 @@ h1{font-size: 1.5em;
   font-weight:400;
   margin-bottom: : 10px;
   margin-top: 20px;
-  margin-right:0;
-  margin-left:0;
   width:70%;
   min-width: 300px;}
 
@@ -58,10 +60,29 @@ h1{font-size: 1.5em;
   font-size: 1em;
   font-style: italic;
   margin-top: 2px;
-  margin-left: 0;
-  margin-right: 0;
   margin-bottom: 0;
 }
+
+.description {
+  margin-top: 10;
+  margin-bottom: 10;
+}
+
+.menu{ margin: 0;
+      padding:0;
+      text-align:center;}
+
+
+.li{display:inline;}
+
+#degrees {margin-top: 5px}
+
+#do {margin-top: 5px}
+
+.top {width: 60%;
+min-width:300px;
+margin:0 auto;
+margin-bottom: 30px}
 
 ul
 li{font-size: 1em;}
