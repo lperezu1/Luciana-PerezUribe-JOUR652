@@ -6,39 +6,61 @@ color:#444;
 font-weight:400;
 font-size: 1em;}
 
-/*banner name at top, then photo of me, on the sides interests and skills, then finally underneath photo links to social media */
+/*banner name at top, then photo of me, on the sides interests and skills, then finally underneath links to social media */
 
 
 /*would like to try to make a 3 block link to different things (such as a link to photos ive taken, another to a document with links to articles ive written, then last just McClathcy project*/)
 
-h1{font-size: 1.5em;
-  color:#33485e;
-  font-style:bold;
-  text-transform:uppercase;}
+.container{
+width: 100%;
+max-width:1000px;
+margin:0 auto;
+}
 
-strong {text-transform:uppercase;
+
+
+#name {text-transform:uppercase;
   font-size: 3em;
   color:#33485e;
-  text-align:center;;}
+  text-align:center;
+  border-bottom:1px solid color:#33485e;
+  width:60%;
+  min-width: 300px;
+  margin: 0 auto;}
 
 
+h1{font-size: 1.5em;
+    color:#33485e;
+    font-style:bold;
+    text-transform:uppercase;}
 
-h2{text-transform:uppercase;
+
+.sectionheader{text-transform:uppercase;
   font-size: 1.5em;
   background-color: #33485e;
   color:#FFFFFF;
-  font-weight:400;}
+  font-weight:400;
+  margin-bottom: : 10px;
+  margin-top: 20px;
+  margin-right:0;
+  margin-left:0;
+  width:70%;
+  min-width: 300px;}
 
-h3{font-weight:600;
+.jobtitle{font-weight:600;
   font-style:bold;
   font-size: 1.5em;}
 
-h4{font-weight:400;
-  font-size: 1.5em;}
+.organization{font-weight:400;
+  font-size: 1.25em;}
 
-h5{font-weight:400;
+.date{font-weight:400;
   font-size: 1em;
   font-style: italic;
+  margin-top: 2px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 ul
