@@ -14,73 +14,62 @@ font-size: 1em;}
   bottom center;
   height: 700px;
   width: 100%;
-  min-width: 300px;
-}
-
-/*would like to try to make a 3 block link to different things (such as a link to photos ive taken, another to a document with links to articles ive written, then last just McClathcy project*/)
+  min-width: 300px;}
 
 
-.container{
+
+#container {
 width: 100%;
 max-width:2100px;
 margin-top: 20px;
 margin-bottom: 20px;
 padding: 0px;
-background-color: #e1e2f0;
 }
 
-.break {size:full-width;
- }
 
-
-.image {size: 80%}
+/*skills*/
 
 .skills {padding-top: 60px;}
 
+/*cards*/
 .card-text {font-size: 20px}
 
+.container {padding-top: 20px;
+padding-bottom:20px;}
 
-.display-4{
-align-items: center;
-text-align: center;
-color:#444dc6;
-font-size:2.5em;
-} /*resume title*/
 
+/*info about me*/
 .lead {text-align: center;
-color:#000000;
-word-wrap: break-word;}/*info about me*/
+
+word-wrap: break-word;}
 
 
-.row-md-2{margin-top:50px;
-margin-bottom:50px;}
+ /*font for sectionheader titles such as experience, etc */
 
 .sectionheader{
   text-align:center;
   color:#444dc6;
-  font-size:1.5em;
+  font-size:3em;
   margin-top: 10px;
   }
 
+/*social media styles */
 
-  .menu{ margin: 0;
+.menu{ margin: 0;
         padding:0;
         text-align:center;
         display: inline-block;}
 
-.li {display:inline; text-align: center;}
 
-.hero {
-    /* Sizing */
-    width: 1100px;
-    height: 1100px;
+.list {display:inline; text-align: center;}
 
-    /* Flexbox stuff */
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
+
+/*space between volunteer and education*/
+
+.volunteer {margin-top:80px;}
+
+/*footer*/
 
 .footer {
   left: 0;
@@ -91,8 +80,3 @@ margin-bottom:50px;}
   text-align: center;
   margin-top: 100px;
 }
-
-
-
-
-.volunteer {margin-top:80px;}
