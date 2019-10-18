@@ -1,7 +1,7 @@
 
 /*styles for my resume*/
 
-body{font-family: 'Open Sans', Arial,sans-serif;
+body{font-family: 'Myriad Pro', Arial,sans-serif;
 color:#444;
 font-weight:400;
 font-size: 1em;}
@@ -9,80 +9,90 @@ font-size: 1em;}
 /*banner name at top, then photo of me, on the sides interests and skills, then finally underneath links to social media */
 
 
+#photome{
+  background-color:#cccff9;
+  bottom center;
+  height: 700px;
+  width: 100%;
+  min-width: 300px;
+}
+
 /*would like to try to make a 3 block link to different things (such as a link to photos ive taken, another to a document with links to articles ive written, then last just McClathcy project*/)
+
 
 .container{
 width: 100%;
-max-width:1200px;
-margin:0 auto;
-padding: 50px;
+max-width:2100px;
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 0px;
+background-color: #e1e2f0;
 }
 
+.break {size:full-width;
+ }
 
 
-#name {text-transform:uppercase;
-  font-size: 3em;
-  color:#33485e;
+.image {size: 80%}
+
+.skills {padding-top: 60px;}
+
+.card-text {font-size: 20px}
+
+
+.display-4{
+align-items: center;
+text-align: center;
+color:#444dc6;
+font-size:2.5em;
+} /*resume title*/
+
+.lead {text-align: center;
+color:#000000;
+word-wrap: break-word;}/*info about me*/
+
+
+.row-md-2{margin-top:50px;
+margin-bottom:50px;}
+
+.sectionheader{
   text-align:center;
-  border-bottom:1px solid #33485e;
-  width:60%;
-  min-width: 300px;
-  margin: 0 auto;}
+  color:#444dc6;
+  font-size:1.5em;
+  margin-top: 10px;
+  }
 
 
-#title{font-size: 1.5em;
-    color:#33485e;
-    font-weight: 600px;
-    text-align: center;
-    margin-top: 20px;
-    font-style:bold;
-    text-transform:uppercase;}
+  .menu{ margin: 0;
+        padding:0;
+        text-align:center;
+        display: inline-block;}
 
+.li {display:inline; text-align: center;}
 
-.sectionheader{text-transform:uppercase;
-  font-size: 1.5em;
-  background-color: #33485e;
-  color:#FFFFFF;
-  font-weight:400;
-  margin-bottom: : 10px;
-  margin-top: 20px;
-  width:70%;
-  min-width: 300px;}
+.hero {
+    /* Sizing */
+    width: 1100px;
+    height: 1100px;
 
-.jobtitle{font-weight:600;
-  font-style:bold;
-  font-size: 1.5em;}
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.organization{font-weight:400;
-  font-size: 1.25em;}
-
-.date{font-weight:400;
-  font-size: 1em;
-  font-style: italic;
-  margin-top: 2px;
-  margin-bottom: 0;
 }
 
-.description {
-  margin-top: 10;
-  margin-bottom: 10;
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #c4c7f6;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
 }
 
-.menu{ margin: 0;
-      padding:0;
-      text-align:center;}
 
 
-.li{display:inline;}
 
-#degrees {margin-top: 5px}
-
-#do {margin-top: 5px}
-
-.top {width: 60%;
-min-width:300px;
-margin:0 auto;
-margin-bottom: 30px}
-
-ul
-li{font-size: 1em;}
+.volunteer {margin-top:80px;}
