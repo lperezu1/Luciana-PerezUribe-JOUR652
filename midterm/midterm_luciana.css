@@ -1,0 +1,45 @@
+.body {font-family:avenir;
+font-weight:400;
+font-size: 1em;}
+
+/*font-family: 'Helvetica', Arial,sans-serif;
+ font-size:12px;
+*/
+
+#container-fluid {
+width: 100%;
+max-width:2100px;
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 0px;
+}
+
+
+.img-fluid {padding-top: 20px;
+padding-bottom:20px;
+width: 100%;
+max-width:2100px;}
+
+#headline{
+  font-size:3em;
+  color:#b87333;
+  font-family: futura;
+  }
+
+#byline{
+  font-size:1em;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family:avenir;
+}
+
+#subhead{
+  font-size:2em;
+  color:#b20000;
+  margin-top: 10px;
+  font-family: futura;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
