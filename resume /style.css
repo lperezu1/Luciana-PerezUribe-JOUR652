@@ -1,0 +1,106 @@
+/*styles for my resume*/
+
+
+/*banner above */
+
+.body {font-family: 'Open Sans', Arial,sans-serif;
+font-size: 1em;
+color:#444;
+font-weight: 400;}
+
+
+/*styles for name */
+
+#name{color:#33485e;
+   font-size: 36px;
+   text-transform: uppercase;
+   text-align:center;
+   border-bottom: solid 1px;
+   border-bottom-color:#33485e;
+   width: 60%;
+   min-width: 300px;
+   margin:0 auto;
+  }
+
+   /*styles for title journalist  */
+
+#title { text-transform: uppercase;
+  color: #33485e;
+  font-size: 1.5em;
+  font-weight: 600px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*styles for sectionheader  */
+
+
+.sectionheader {font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #33485e;
+  color: #FFFFFF;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  max-width: 70%;
+  min-width: 300px;
+}
+
+
+/*styles for jobtitle */
+
+.jobtitle {font-weight: 600;
+font-size: 1.5em;
+}
+
+/*styles for organization  */
+.organization{ font-weight: 400;
+font-size: 1.25em}
+
+
+/*styles for datee */
+
+.date{font-weight: 400;
+font-weight: 400;
+font-style: italic;
+font-size: 1em;
+margin-top: 2px;
+}
+
+
+/*styles for list */
+
+ul{font-size: 1em;}
+
+
+.description{ margin-top: 10px;}
+
+/*menu styles for social media */
+
+.menu{margin:0px;
+padding: 0px;
+text-align: center;}
+
+/*contact*/
+
+.list{display:inline;}
+
+/*skills*/
+#do {margin-top: 5px;
+}
+
+/*education*/
+#degrees {margin-top: 5px;}
+
+.top {width: 60%;
+  max-width: 300px;
+  margin:0 auto;
+  margin-bottom: 30px;
+}
+
+/*container*/
+
+#container {width; 100%;
+max-width: 1200px;
+margin:0 auto;
+padding-bottom: 50px;}
