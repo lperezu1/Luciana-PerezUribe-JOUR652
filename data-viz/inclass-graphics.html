@@ -1,0 +1,383 @@
+<!doctype html>
+
+
+<html lang="en">
+
+
+  <head>
+      <!-- Required meta tags -->
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+      <!-- Bootstrap CSS -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+    <!-- Load our CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Load c3.css -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.14/c3.min.css" rel="stylesheet">
+
+  <!-- Load d3.js and c3.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.14/c3.min.js"></script>
+
+
+
+
+<title>
+      Luciana Perez Uribe's HTML Frame
+  </title>
+
+  </head>
+
+
+<body class="body">
+
+  <div id="container-fluid">
+
+
+
+<!--navigation bar --->
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!---nav ends --->
+
+
+<!---headline --->
+
+<h1 id = "headline"> Headline goes here </h1>
+
+
+<!---byline --->
+
+<div id="byline"> By Luciana Perez Uribe Guinassi  </div>
+
+<div id="byline"> October 30, 2019 </div>
+
+
+
+
+
+
+<!---subhead or chapter headline --->
+
+<div class= "container">
+<div id ="subhead"> Chapter Headline </div>
+</div>
+
+
+<div class= "container">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo, enim sit amet sollicitudin faucibus, ipsum leo scelerisque arcu, eu hendrerit nisl arcu at tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus non ultricies nibh, et suscipit eros. Nullam hendrerit est eu libero semper, in aliquam dui volutpat. Vivamus laoreet dui sed consectetur aliquam. Phasellus nec dolor ac dolor maximus bibendum convallis quis odio. Nunc hendrerit, magna et commodo sagittis, enim sem convallis ligula, id pellentesque ex odio eu nulla. Nunc pellentesque lacinia venenatis. Curabitur varius, libero non faucibus lobortis, mauris justo aliquet mauris, sed condimentum dui risus ut enim. Aenean porta porttitor ipsum, non blandit lorem.
+</div>
+
+<!---image --->
+
+
+
+<img class="img-fluid" src="images/churros.jpeg"  alt="generic photo">
+<p><cite> Photo Photo Photo  </cite> Luciana Perez Uribe </p>
+
+
+
+<div class= "container">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo, enim sit amet sollicitudin faucibus, ipsum leo scelerisque arcu, eu hendrerit nisl arcu at tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus non ultricies nibh, et suscipit eros. Nullam hendrerit est eu libero semper, in aliquam dui volutpat. Vivamus laoreet dui sed consectetur aliquam. Phasellus nec dolor ac dolor maximus bibendum convallis quis odio. Nunc hendrerit, magna et commodo sagittis, enim sem convallis ligula, id pellentesque ex odio eu nulla. Nunc pellentesque lacinia venenatis. Curabitur varius, libero non faucibus lobortis, mauris justo aliquet mauris, sed condimentum dui risus ut enim. Aenean porta porttitor ipsum, non blandit lorem.
+</div>
+
+
+
+<!-- line -->
+
+<div class= "container">
+ <div class="graphic-container">
+   <h2>Shootings by year</h2>
+   <p>The number of shootings per year has generally remained high in the US since the turn of the century, with noticeable dips in 2002, 2011 and 2015. The last three years, the number of shootings has been consistently high.</p>
+   <div id="myLineChart"></div>
+   <em>Source: Data collected by The Washington Post</em>
+ </div>
+</div>
+ <!-- END first graphic container-->
+
+
+<p></p>
+
+
+<!---bar  --->
+<div class= "container">
+<div class = "graphic-container">
+<h2>Shootings by Type </h2>
+<p>Targeted shootings are by far the most common type.</p>
+<div id="shootingsByTypeChart"></div>
+<em>Source: Data collected by The Washington Post</em>
+</div>
+</div>
+<!--- done --- >
+
+
+<!--- pie chart --->
+
+<div class= "container">
+<div class = "graphic-container">
+<h2>How often were resource officers present? </h2>
+<p>School Resource officers were commonly not present at the scene of school shootings </p>
+<div id="resourceOfficersChart"></div>
+<em>Source: Data collected by The Washington Post</em>
+</div>
+</div>
+
+<!--- done --- >
+
+
+
+
+<!---homework part --->
+
+
+<!---pie chart 2 --->
+
+
+<div class= "container">
+<div class = "graphic-container">
+<h2>Race of School Shooters  </h2>
+<p>race </p>
+<div id="schoolshooterrace"></div>
+<em>Source: Data collected by The Washington Post</em>
+</div>
+</div>
+
+
+<!--- pie chart done --->
+
+
+<!---bar chart 2  --->
+
+<div class= "container">
+ <div class="graphic-container">
+   <h2>Location of shootings </h2>
+   <p>Shooting Locations</p>
+   <div id="location"></div>
+   <em>Source: Data collected by The Washington Post</em>
+ </div>
+</div>
+
+<!---bar chart done --->
+
+
+
+<!--- line chart 2 --->
+
+
+<div class= "container">
+ <div class="graphic-container">
+   <h2>Number of People Killed </h2>
+   <p>The number of people killed.</p>
+   <div id="killed"></div>
+   <em>Source: Data collected by The Washington Post</em>
+ </div>
+</div>
+
+
+<!--- line chart done ----  >
+
+
+
+
+
+
+
+
+<!---homework done --->
+
+
+
+<!---footer --->
+
+<div class="footer">
+   <p>Copyright 2019 Luciana Perez Uribe </p>
+</div>
+
+<!-- done --->
+
+
+<!-- c3 script-->
+    <script type="text/javascript">
+    //line
+    var chart = c3.generate({
+      bindto: '#myLineChart',
+      data: {
+        x: 'x',
+        columns: [
+          ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+          ['Number of incidents', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12],
+        ]
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+      }
+    });
+
+///bar
+    var chart2 = c3.generate({
+     bindto: '#shootingsByTypeChart',
+     data: {
+       columns: [
+         ['Targeted', 130],
+         ['indiscriminate', 42],
+         ['Accidental', 25],
+         ['Targeted and indiscriminate', 5],
+         ['Public suicide', 4],
+         ['Unclear', 3],
+         ['hostage suicide', 2],
+         ['Accidental or targeted', 2],
+         ['Public suicide (attempted)', 1]
+       ],
+       type: 'bar'
+     },
+     color: {
+       pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+     }
+   });
+
+
+  //pie 1
+  var chart3 = c3.generate({
+    bindto: '#resourceOfficersChart',
+    data: {
+      // iris data from R
+      columns: [
+        ['present', 8],
+        ['not present', 2],
+      ],
+      type : 'pie',
+      onclick: function (d, i) { console.log("onclick", d, i); },
+      onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+      onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+    },
+    color: {
+      pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+    }
+  });
+
+
+
+
+  ///pie 2
+   var chart3 = c3.generate({
+     bindto: '#schoolshooterrace',
+     data: {
+       // iris data from R
+       columns: [
+         ['Asian', 1],
+         ['American Indian', 3],
+         ['Black',35],
+         ['Hispanic', 6],
+         ['White',60],
+         ['Grand Total',105],
+       ],
+       type : 'pie',
+       onclick: function (d, i) { console.log("onclick", d, i); },
+       onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+       onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+     },
+     color: {
+       pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+     }
+   });
+
+
+
+
+
+   ///bar  2
+       var chart2 = c3.generate({
+        bindto: '#location',
+        data: {
+          columns: [
+            ['City', 101],
+            ['Suburb', 58],
+            ['Town', 24],
+            ['Rural', 214	]
+          ],
+          type: 'bar'
+        },
+        color: {
+          pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+        }
+      });
+
+
+      //line 2
+      var chart = c3.generate({
+        bindto: '#killed',
+        data: {
+          x: 'x',
+          columns: [
+            ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+            ['Number of incidents', 14, 4, 5, 1, 5, 3, 9, 9, 1, 5, 1, 3, 2, 32, 3, 6, 0, 2, 5, 21],
+          ]
+        },
+        color: {
+          pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+        }
+      });
+
+
+
+ </script>
+
+
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</div>
+
+</body>
+
+
+
+
+
+</html>
