@@ -38,6 +38,22 @@ padding: 0px;
 }
 
 
+.container{padding-left:100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;}
+
+.image{
+max-width: 100%;
+height: auto;}
+
+iframe {
+  width: 100%;
+  max-width: 900px;
+  object-fit: contain;
+}
+
 #headline{
   padding-top: 30px;
   padding-bottom: 10px;
@@ -73,25 +89,10 @@ padding: 0px;
   }
 
 
-.container {padding-left:170px;
-  padding-right: 170px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: left;}
-
-.image{padding-top: 40px;
-padding-bottom: 40px; }
-
-
 .graphic-container
 {padding:20px;
 text-align: center;}
 
-
-.img-fluid {padding:20px;
-  width: 80%;
-  max-width:1000px;
- }
 
 
  .footer {
