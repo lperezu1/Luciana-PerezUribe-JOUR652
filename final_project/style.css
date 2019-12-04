@@ -22,7 +22,6 @@
 }
 
 
-
 /* container */
 
 #container-fluid {
@@ -66,8 +65,15 @@ text-align: center;
     font-family: futura;
   }
 
-.container {padding:20px;
-text-align: left;}
+.container {padding-left:60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;}
+
+.image{padding-top: 40px;
+padding-bottom: 40px; }
+
 
 .graphic-container
 {padding:20px;
