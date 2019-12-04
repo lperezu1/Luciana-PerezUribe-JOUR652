@@ -33,17 +33,11 @@ padding: 0px;
 }
 
 
-.body { font-family:avenir;
-font-weight:400;
-font-size: 1em;
-text-align: center;
-}
-
 #headline{
   padding-top: 30px;
   padding-bottom: 10px;
   font-size:3em;
-  font-family: futura;
+  font-family: Lora-Bold, 'avenir';
   text-align: center;
 
   }
@@ -53,7 +47,7 @@ text-align: center;
     font-style: italic;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family:avenir;
+    font-family:Lora-Bold, 'avenir';
     text-align: center;
   }
 
@@ -62,11 +56,19 @@ text-align: center;
     font-size:2em;
     margin-top: 30px;
     margin-bottom: 10px;
-    font-family: futura;
+    font-family: Lora-Bold, 'avenir';
   }
 
-.container {padding-left:60px;
-  padding-right: 60px;
+
+#body { font-family:Lora-Regular,'avenir';
+  font-weight:400;
+  font-size: 1em;
+  text-align: center;
+  }
+
+
+.container {padding-left:170px;
+  padding-right: 170px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: left;}
