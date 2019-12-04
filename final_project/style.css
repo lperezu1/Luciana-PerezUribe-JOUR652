@@ -4,7 +4,7 @@
     width: 100px;
     height: 100px;
     margin-right: 5px;
-    margin-top: 5px;
+    margin-top: 1px;
 }
 
 .bgimage {
@@ -21,6 +21,11 @@
 }
 }
 
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
 
 /* container */
 
