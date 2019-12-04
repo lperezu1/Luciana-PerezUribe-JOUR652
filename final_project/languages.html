@@ -323,17 +323,6 @@ Story Map or Timeline --->
 
 
 
-<!---bar  --->
-<div class= "container">
-<div class = "graphic-container">
-<h2>Descriptive Status of Languages </h2>
-<p>Measure of how much grammatical discription there is for a language </p>
-<div id="DescriptiveStatus"></div>
-<em>Source: Data collected by Glottolog</em>
-</div>
-</div>
-
-
 <!--- done --- >
 
 
@@ -372,26 +361,6 @@ Story Map or Timeline --->
         pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
       }
     });
-
-
-
-///bar
-    var chart2 = c3.generate({
-     bindto: '#DescriptiveStatus',
-     data: {
-       columns: [
-         ['Long Grammar', 1835],
-         ['Grammar', 918],
-         ['Grammar Sketch', 1985],
-         ['Phonology/text', 959],
-         ['Wordlist or less', 2081],
-       ],
-       type: 'bar'
-     },
-     color: {
-       pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
-     }
-   });
 
 
  </script>
